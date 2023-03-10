@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.section-title{
+    @apply text-3xl lg:text-4xl font-medium lg:font-extrabold mb-5 text-gray-900 mt-12;
+}
+
+.input{
+    @apply h-[60px] outline-none pl-6 w-full text-[15px] rounded-lg focus:outline focus:outline-1;
+}
+
+
+.text-area{
+    @apply h-[86px] outline-none pl-6 w-full text-[15px] rounded-lg focus:outline focus:outline-1;
+}
